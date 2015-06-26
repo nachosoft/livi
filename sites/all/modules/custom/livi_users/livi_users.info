@@ -1,0 +1,4 @@
+name = Livi Users.
+description = "Provides an administration features for the users"
+package = livi
+core = 7.x

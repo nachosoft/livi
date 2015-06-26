@@ -441,7 +441,8 @@ p,
       text-align: right;
       text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); }
   /* line 32, ../sass/components/generic_page/_hero.scss */
-  .l-header #block-webform-client-block-2 {
+  .l-header #block-webform-client-block-2,
+  .l-header #block-livi-users-livi-users-add {
     position: absolute;
     z-index: 10;
     right: 15px;
@@ -450,8 +451,13 @@ p,
     margin-top: 41px;
     padding: 30px 30px 23px;
     background: #f4f4f4; }
-    /* line 42, ../sass/components/generic_page/_hero.scss */
-    .l-header #block-webform-client-block-2 input {
+    /* line 43, ../sass/components/generic_page/_hero.scss */
+    .l-header #block-webform-client-block-2 label,
+    .l-header #block-livi-users-livi-users-add label {
+      display: none; }
+    /* line 47, ../sass/components/generic_page/_hero.scss */
+    .l-header #block-webform-client-block-2 input,
+    .l-header #block-livi-users-livi-users-add input {
       outline: none;
       padding: 12px 10px 15px;
       font-size: 16px;
@@ -465,8 +471,11 @@ p,
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
       box-sizing: border-box; }
-    /* line 58, ../sass/components/generic_page/_hero.scss */
-    .l-header #block-webform-client-block-2 .webform-submit {
+    /* line 63, ../sass/components/generic_page/_hero.scss */
+    .l-header #block-webform-client-block-2 .webform-submit,
+    .l-header #block-webform-client-block-2 #edit-submit,
+    .l-header #block-livi-users-livi-users-add .webform-submit,
+    .l-header #block-livi-users-livi-users-add #edit-submit {
       display: block;
       padding: 16px 17px;
       font-weight: 500;
@@ -489,8 +498,11 @@ p,
       -moz-transition: 0.3s all ease;
       -o-transition: 0.3s all ease;
       -webkit-transition: 0.3s all ease; }
-    /* line 82, ../sass/components/generic_page/_hero.scss */
-    .l-header #block-webform-client-block-2 .webform-submit:hover {
+    /* line 88, ../sass/components/generic_page/_hero.scss */
+    .l-header #block-webform-client-block-2 .webform-submit:hover,
+    .l-header #block-webform-client-block-2 input#edit-submit:hover,
+    .l-header #block-livi-users-livi-users-add .webform-submit:hover,
+    .l-header #block-livi-users-livi-users-add input#edit-submit:hover {
       background: #59bc5c;
       border-top-color: #4fa953;
       border-right-color: #59bc5c;
@@ -499,30 +511,41 @@ p,
       -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.17);
       -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.17);
       box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.17); }
+  /* line 101, ../sass/components/generic_page/_hero.scss */
+  .l-header #block-livi-users-livi-users-add .form-item-tel-pref {
+    width: 25%;
+    float: left; }
+  /* line 105, ../sass/components/generic_page/_hero.scss */
+  .l-header #block-livi-users-livi-users-add .form-item-tel-num {
+    width: 73%;
+    float: right; }
+  /* line 110, ../sass/components/generic_page/_hero.scss */
+  .l-header #block-livi-users-livi-users-add h3 {
+    text-align: center; }
 
-/* line 94, ../sass/components/generic_page/_hero.scss */
+/* line 115, ../sass/components/generic_page/_hero.scss */
 .white #block-ds-extras-hero .hero_title h2 {
   color: #fff; }
 
-/* line 97, ../sass/components/generic_page/_hero.scss */
+/* line 118, ../sass/components/generic_page/_hero.scss */
 .green #block-ds-extras-hero .hero_title h2 {
   color: #5dc761; }
 
-/* line 100, ../sass/components/generic_page/_hero.scss */
+/* line 121, ../sass/components/generic_page/_hero.scss */
 .black #block-ds-extras-hero .hero_title h2 {
   color: #333;
   text-shadow: none; }
 
-/* line 104, ../sass/components/generic_page/_hero.scss */
+/* line 125, ../sass/components/generic_page/_hero.scss */
 .l-main {
   clear: both; }
 
 @media only screen and (max-width: 1130px) {
-  /* line 109, ../sass/components/generic_page/_hero.scss */
+  /* line 130, ../sass/components/generic_page/_hero.scss */
   .l-header {
     position: relative;
     padding: 20px 15px; }
-    /* line 112, ../sass/components/generic_page/_hero.scss */
+    /* line 133, ../sass/components/generic_page/_hero.scss */
     .l-header .site-logo {
       position: relative;
       display: block;
@@ -531,10 +554,10 @@ p,
       top: 0;
       width: 50%;
       margin: 10px auto; }
-    /* line 123, ../sass/components/generic_page/_hero.scss */
+    /* line 144, ../sass/components/generic_page/_hero.scss */
     .l-header #block-ds-extras-hero .hero_image figure {
       display: none; }
-    /* line 126, ../sass/components/generic_page/_hero.scss */
+    /* line 147, ../sass/components/generic_page/_hero.scss */
     .l-header #block-ds-extras-hero .hero_title {
       position: relative;
       z-index: 10;
@@ -542,12 +565,13 @@ p,
       right: 0;
       width: 90%;
       margin: 0 auto; }
-      /* line 133, ../sass/components/generic_page/_hero.scss */
+      /* line 154, ../sass/components/generic_page/_hero.scss */
       .l-header #block-ds-extras-hero .hero_title h2 {
         margin: 0;
         text-align: center; }
-    /* line 139, ../sass/components/generic_page/_hero.scss */
-    .l-header #block-webform-client-block-2 {
+    /* line 160, ../sass/components/generic_page/_hero.scss */
+    .l-header #block-webform-client-block-2,
+    .l-header #block-livi-users-livi-users-add {
       position: relative;
       z-index: 10;
       right: 0;
