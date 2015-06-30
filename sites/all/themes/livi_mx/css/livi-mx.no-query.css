@@ -250,17 +250,18 @@ p,
 
 /* line 216, ../sass/components/generic_page/_blocks.scss */
 .accordions_block_wrapper {
+  padding-top: 0;
   text-align: left; }
-  /* line 218, ../sass/components/generic_page/_blocks.scss */
+  /* line 219, ../sass/components/generic_page/_blocks.scss */
   .accordions_block_wrapper ul {
     padding: 0; }
-  /* line 221, ../sass/components/generic_page/_blocks.scss */
+  /* line 222, ../sass/components/generic_page/_blocks.scss */
   .accordions_block_wrapper ul li {
     list-style: none;
     display: block;
     width: 80%;
     margin: 15px auto; }
-  /* line 228, ../sass/components/generic_page/_blocks.scss */
+  /* line 229, ../sass/components/generic_page/_blocks.scss */
   .accordions_block_wrapper .title h3 {
     font-size: 24px;
     line-height: 28px;
@@ -277,15 +278,15 @@ p,
     -o-transition: 0.3s all ease;
     -webkit-transition: 0.3s all ease;
     transition: 0.3s all ease; }
-  /* line 245, ../sass/components/generic_page/_blocks.scss */
+  /* line 246, ../sass/components/generic_page/_blocks.scss */
   .accordions_block_wrapper .title h3:hover {
     border-color: #5dc761;
     cursor: pointer; }
-  /* line 250, ../sass/components/generic_page/_blocks.scss */
+  /* line 251, ../sass/components/generic_page/_blocks.scss */
   .accordions_block_wrapper ul li.active .title h3 {
     background: url("../images/minus.png") no-repeat center right 10px;
     background-size: 30px; }
-  /* line 255, ../sass/components/generic_page/_blocks.scss */
+  /* line 256, ../sass/components/generic_page/_blocks.scss */
   .accordions_block_wrapper .body {
     padding: 19px 31px 34px;
     background: #f4f4f4;
@@ -297,16 +298,16 @@ p,
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     display: none; }
-  /* line 268, ../sass/components/generic_page/_blocks.scss */
+  /* line 269, ../sass/components/generic_page/_blocks.scss */
   .accordions_block_wrapper ul li.active .body {
     display: block; }
 
-/* line 273, ../sass/components/generic_page/_blocks.scss */
+/* line 274, ../sass/components/generic_page/_blocks.scss */
 .quotes_blocks_wrapper {
   background: #f4f4f4;
   display: flex;
   justify-content: space-around; }
-  /* line 278, ../sass/components/generic_page/_blocks.scss */
+  /* line 279, ../sass/components/generic_page/_blocks.scss */
   .quotes_blocks_wrapper .quote_block {
     position: relative;
     width: 48%;
@@ -314,18 +315,18 @@ p,
     padding: 20px;
     background: #fff;
     border-radius: 3px; }
-    /* line 286, ../sass/components/generic_page/_blocks.scss */
+    /* line 287, ../sass/components/generic_page/_blocks.scss */
     .quotes_blocks_wrapper .quote_block .image {
       width: 20%;
       height: auto;
       float: left;
       margin-right: 20px; }
-    /* line 292, ../sass/components/generic_page/_blocks.scss */
+    /* line 293, ../sass/components/generic_page/_blocks.scss */
     .quotes_blocks_wrapper .quote_block .quote {
       font-size: 24px;
       line-height: 38px;
       text-align: left; }
-    /* line 297, ../sass/components/generic_page/_blocks.scss */
+    /* line 298, ../sass/components/generic_page/_blocks.scss */
     .quotes_blocks_wrapper .quote_block .quote p:before {
       position: relative;
       top: 22px;
@@ -335,7 +336,7 @@ p,
       line-height: 45px;
       vertical-align: bottom;
       color: #5dc761; }
-    /* line 307, ../sass/components/generic_page/_blocks.scss */
+    /* line 308, ../sass/components/generic_page/_blocks.scss */
     .quotes_blocks_wrapper .quote_block .author {
       position: absolute;
       bottom: 10px;
@@ -430,8 +431,8 @@ p,
   .l-header #block-ds-extras-hero .hero_title {
     position: absolute;
     z-index: 10;
-    top: 135px;
-    right: 85px;
+    top: 25px;
+    left: 30px;
     width: 65%; }
     /* line 23, ../sass/components/generic_page/_hero.scss */
     .l-header #block-ds-extras-hero .hero_title h2 {
@@ -446,7 +447,7 @@ p,
     position: absolute;
     z-index: 10;
     right: 15px;
-    bottom: 50px;
+    bottom: 160px;
     width: 470px;
     margin-top: 41px;
     padding: 30px 30px 23px;

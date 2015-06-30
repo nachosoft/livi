@@ -9,8 +9,6 @@ function livi_users_load_by_tel($tel){
     return false;
   }
 
-  //$tel = 3111002427;
-
   $sql = sprintf("SELECT entity_id FROM field_data_field_celular WHERE field_celular_value = %d AND bundle = 'user'", $tel);
   $results = db_query($sql);
   $users = array();

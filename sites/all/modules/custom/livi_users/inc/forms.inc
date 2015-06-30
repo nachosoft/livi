@@ -21,7 +21,7 @@ function livi_users_add_form($form, &$form_state){
 
   $form ['tel_label'] = array(
     '#type' => 'markup',
-    '#markup' => '<h3>Telefono</h3>', 
+    '#markup' => '<h3>Telefono Celular</h3>', 
   );
 
   $form ['tel_pref'] = array(
